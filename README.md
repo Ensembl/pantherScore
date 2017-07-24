@@ -13,7 +13,7 @@ The patch has to be applied this way:
 
 * `cd $ENSEMBL_DIR`
 * `git clone https://github.com/Ensembl/pantherScore`
-* `wget ftp://ftp.pantherdb.org/hmm_scoring/10.0/1.03/pantherScore1.03.zip`
+* `wget https://github.com/Ensembl/pantherScore/raw/master/pantherscore-1.03.zip`
 * `unzip -d $DEST_DIR pantherScore1.03.zip` 
 * `cd $DEST_DIR/pantherScore1.03/`
 * `patch -p1 < $ENSEMBL_DIR/pantherScore/pantherScore1.03.patch`
